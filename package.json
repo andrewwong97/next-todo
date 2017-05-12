@@ -9,7 +9,7 @@
     "react-dom": "^15.5.4"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 80",
     "build": "next build",
     "start": "next start"
   }
