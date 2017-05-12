@@ -5,7 +5,7 @@ import Status from '../components/status.js'
 export default () => (
     <div className="App">
     	<Head>
-    		<title>My Admin Site</title>
+    		<title>WorkBook | Feed-Based Task Tracking</title>
     	</Head>
     	<nav className="main-nav">
     		<ul className="main-nav-wrapper">
@@ -15,7 +15,7 @@ export default () => (
     		</ul>
     	</nav>
 		<div className="center-wrapper">
-			<h1>Welcome to ToDo</h1>
+			<h1>To Do</h1>
 			<Status />
 		</div>
     	<style jsx>{`
