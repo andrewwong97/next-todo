@@ -5,68 +5,46 @@ import Task from '../components/task.js'
 import Header from '../components/header.js'
 
 
-export default () => (
-    <div className="App">
-      	<Head>
-      		<title>WorkBook | Feed-Based Task Tracking</title>
-      	</Head>
-        <Header />
-    		<div md={4} className="center-wrapper">
-    			<h1>To Do</h1>
-    			<Status />
-    			<Task text="derp"/>
-          <Task text="derp"/>
-          <Task text="derp"/>
-    		</div>
+export default class extends React.Component {
+  static async getInitialProps() {
+		return {data: ['one', 'two', 'three', 'four', 'five']}
+	}
 
-    	<style jsx global>{`
-			.App {
-				font-family: Helvetica, sans-serif;
-			}
+  render() {
+    return (
+        <div className="App">
+          	<Head>
+          		<title>WorkBook | Feed-Based Task Tracking</title>
+          	</Head>
+        		<div className="center-wrapper">
+        			<h1>To Do</h1>
+        			<Status />
+              <ul className="tasklist">
+          			{this.props.data.map((i) => {
+          				return (<Task text={i} />);
+          			})}
+          		</ul>
+        		</div>
 
-			.main-nav {
-				display: flex;
-				height: 40px;
-				padding: 5px 40px;
-				align-items: center;
-				justify-content: space-between;
-				font-weight: 300;
-				border-bottom: 1px solid #dfdfdf;
-			}
+        	<style jsx global>{`
+    			.App {
+    				font-family: Helvetica, sans-serif;
+    			}
 
-			.main-nav-wrapper {
-				list-style-type: none;
-			}
 
-			.main-nav-wrapper > .main-nav-item {
-				display: inline;
-				margin: 20px;
-				padding: 20px;
-			}
+    			h1 {
+    				font-weight: 600;
+    			}
 
-			.main-nav-wrapper > .main-nav-item > .main-nav-link {
-				text-decoration: none;
-				color: #2575bb;
-				transition: color 200ms ease-in;
-			}
+    			h2 {
+    				font-weight: 400;
+    			}
 
-			.main-nav-link:hover {
-				color: red;
-			}
+          
 
-  		.center-wrapper {
-  			display: block;
-  			margin: 0 auto;
-  			text-align: center;
-  		}
+        	`}</style>
+        </div>
+    );
+  }
 
-			h1 {
-				font-weight: 600;
-			}
-
-			h2 {
-				font-weight: 400;
-			}
-    	`}</style>
-    </div>
-)
+}
