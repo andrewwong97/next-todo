@@ -25,7 +25,7 @@ exports.default = function () {
       fileName: _jsxFileName,
       lineNumber: 5
     }
-  }, _react2.default.createElement("a", { href: "/", "class": "brand", __source: {
+  }, _react2.default.createElement(_link2.default, { prefetch: true, href: "/", "class": "brand", __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
@@ -37,7 +37,7 @@ exports.default = function () {
       fileName: _jsxFileName,
       lineNumber: 8
     }
-  }, _react2.default.createElement(_link2.default, { href: "/one", __source: {
+  }, _react2.default.createElement(_link2.default, { prefetch: true, href: "/one", __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     }
