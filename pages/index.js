@@ -27,11 +27,6 @@ export default class extends React.Component {
         		</div>
 
         	<style jsx global>{`
-    			.App {
-    				font-family: Helvetica, sans-serif;
-    			}
-
-
     			h1 {
     				font-weight: 600;
     			}
@@ -39,9 +34,6 @@ export default class extends React.Component {
     			h2 {
     				font-weight: 400;
     			}
-
-          
-
         	`}</style>
         </div>
     );

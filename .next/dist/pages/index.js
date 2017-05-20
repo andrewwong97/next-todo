@@ -77,7 +77,7 @@ var _class = function (_React$Component) {
   (0, _createClass3.default)(_class, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement('div', { className: 'App', 'data-jsx': 1427830469,
+      return _react2.default.createElement('div', { className: 'App', 'data-jsx': 2589626189,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
@@ -88,18 +88,18 @@ var _class = function (_React$Component) {
           lineNumber: 16
         }
       }, _react2.default.createElement('title', {
-        'data-jsx': 1427830469,
+        'data-jsx': 2589626189,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         }
-      }, 'WorkBook | Feed-Based Task Tracking')), _react2.default.createElement('div', { className: 'center-wrapper', 'data-jsx': 1427830469,
+      }, 'WorkBook | Feed-Based Task Tracking')), _react2.default.createElement('div', { className: 'center-wrapper', 'data-jsx': 2589626189,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         }
       }, _react2.default.createElement('h1', {
-        'data-jsx': 1427830469,
+        'data-jsx': 2589626189,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
@@ -109,7 +109,7 @@ var _class = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 21
         }
-      }), _react2.default.createElement('ul', { className: 'tasklist', 'data-jsx': 1427830469,
+      }), _react2.default.createElement('ul', { className: 'tasklist', 'data-jsx': 2589626189,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 22
@@ -121,8 +121,8 @@ var _class = function (_React$Component) {
           }
         });
       }))), _react2.default.createElement(_style2.default, {
-        styleId: 1427830469,
-        css: '\n    \t\t\t.App {\n    \t\t\t\tfont-family: Helvetica, sans-serif;\n    \t\t\t}\n\n\n    \t\t\th1 {\n    \t\t\t\tfont-weight: 600;\n    \t\t\t}\n\n    \t\t\th2 {\n    \t\t\t\tfont-weight: 400;\n    \t\t\t}\n\n          \n\n        \t'
+        styleId: 2589626189,
+        css: '\n    \t\t\th1 {\n    \t\t\t\tfont-weight: 600;\n    \t\t\t}\n\n    \t\t\th2 {\n    \t\t\t\tfont-weight: 400;\n    \t\t\t}\n        \t'
       }));
     }
   }], [{

@@ -22,43 +22,22 @@ export default class MyDocument extends Document {
          <NextScript />
        </body>
        <style jsx global>{`
- 			body {
- 				font-family: Helvetica, sans-serif;
- 			}
+      @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
-      a:visited {
-        text-decoration: none;
+ 			body {
+ 				font-family: 'Varela Round', Helvetica, sans-serif;
+        color: #2575bb;
+ 			}
+      
+      a {
+        text-decoration: none !important;
       }
 
- 			.main-nav {
- 				display: flex;
- 				height: 40px;
- 				padding: 5px 40px;
- 				align-items: center;
- 				justify-content: space-between;
- 				font-weight: 300;
- 				border-bottom: 1px solid #dfdfdf;
- 			}
+      a:visited {
+        text-decoration: none !important;
+      }
 
- 			.main-nav-wrapper {
- 				list-style-type: none;
- 			}
-
- 			.main-nav-wrapper > .main-nav-item {
- 				display: inline;
- 				margin: 20px;
- 				padding: 20px;
- 			}
-
- 			.main-nav-wrapper > .main-nav-item > .main-nav-link {
- 				text-decoration: none;
- 				color: #2575bb;
- 				transition: color 200ms ease-in;
- 			}
-
- 			.main-nav-link:hover {
- 				color: red;
- 			}
+ 			
 
    		.center-wrapper {
    			display: block;

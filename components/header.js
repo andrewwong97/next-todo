@@ -10,5 +10,37 @@ export default () => (
         <li className="main-nav-item"><Link href="/three"><a className="main-nav-link">Three</a></Link></li>
       </ul>
     </nav>
+    <style jsx global>{`
+    .main-nav {
+        display: flex;
+        height: 40px;
+        padding: 5px 40px;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 300;
+        // border-bottom: 1px solid #f5f5ff;
+        // background: #f5f5ff;
+      }
+
+      .main-nav-wrapper {
+        list-style-type: none;
+      }
+
+      .main-nav-wrapper > .main-nav-item {
+        display: inline;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .main-nav-wrapper > .main-nav-item > .main-nav-link {
+        text-decoration: none;
+        color: #2575bb;
+        transition: color 200ms ease-in;
+      }
+
+      .main-nav-link:hover {
+        color: red;
+      }
+    `}</style>
   </div>
 )

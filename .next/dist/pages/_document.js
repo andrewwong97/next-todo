@@ -63,7 +63,7 @@ var MyDocument = function (_Document) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement('html', {
-        'data-jsx': 215837640,
+        'data-jsx': 2869886489,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
@@ -84,7 +84,7 @@ var MyDocument = function (_Document) {
           lineNumber: 19
         }
       }), _react2.default.createElement('body', {
-        'data-jsx': 215837640,
+        'data-jsx': 2869886489,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
@@ -100,8 +100,8 @@ var MyDocument = function (_Document) {
           lineNumber: 22
         }
       })), _react2.default.createElement(_style2.default, {
-        styleId: 215837640,
-        css: '\n \t\t\tbody {\n \t\t\t\tfont-family: Helvetica, sans-serif;\n \t\t\t}\n\n      a:visited {\n        text-decoration: none;\n      }\n\n \t\t\t.main-nav {\n \t\t\t\tdisplay: flex;\n \t\t\t\theight: 40px;\n \t\t\t\tpadding: 5px 40px;\n \t\t\t\talign-items: center;\n \t\t\t\tjustify-content: space-between;\n \t\t\t\tfont-weight: 300;\n \t\t\t\tborder-bottom: 1px solid #dfdfdf;\n \t\t\t}\n\n \t\t\t.main-nav-wrapper {\n \t\t\t\tlist-style-type: none;\n \t\t\t}\n\n \t\t\t.main-nav-wrapper > .main-nav-item {\n \t\t\t\tdisplay: inline;\n \t\t\t\tmargin: 20px;\n \t\t\t\tpadding: 20px;\n \t\t\t}\n\n \t\t\t.main-nav-wrapper > .main-nav-item > .main-nav-link {\n \t\t\t\ttext-decoration: none;\n \t\t\t\tcolor: #2575bb;\n \t\t\t\ttransition: color 200ms ease-in;\n \t\t\t}\n\n \t\t\t.main-nav-link:hover {\n \t\t\t\tcolor: red;\n \t\t\t}\n\n   \t\t.center-wrapper {\n   \t\t\tdisplay: block;\n   \t\t\tmargin: 0 auto;\n   \t\t\ttext-align: center;\n   \t\t}\n\n \t\t\th1 {\n \t\t\t\tfont-weight: 600;\n \t\t\t}\n\n \t\t\th2 {\n \t\t\t\tfont-weight: 400;\n \t\t\t}\n     \t'
+        styleId: 2869886489,
+        css: '\n      @import url(\'https://fonts.googleapis.com/css?family=Varela+Round\');\n\n \t\t\tbody {\n \t\t\t\tfont-family: \'Varela Round\', Helvetica, sans-serif;\n        color: #2575bb;\n \t\t\t}\n      \n      a {\n        text-decoration: none !important;\n      }\n\n      a:visited {\n        text-decoration: none !important;\n      }\n\n \t\t\t\n\n   \t\t.center-wrapper {\n   \t\t\tdisplay: block;\n   \t\t\tmargin: 0 auto;\n   \t\t\ttext-align: center;\n   \t\t}\n\n \t\t\th1 {\n \t\t\t\tfont-weight: 600;\n \t\t\t}\n\n \t\t\th2 {\n \t\t\t\tfont-weight: 400;\n \t\t\t}\n     \t'
       }));
     }
   }], [{

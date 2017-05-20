@@ -19,11 +19,12 @@ export default class extends React.Component {
 				</form>
 				<style jsx>{`
 					.status input {
+						font-family: 'Helvetica', sans-serif;
 						outline: none;
 						padding: 10px;
 						width: 12em;
 						font-size: 14pt;
-						font-weight: 300;
+						font-weight: 200;
 						border: 1px solid rgba(0,0,0,.15);
 						border-radius: 3px;
 						transition: border 150ms ease-in-out;
